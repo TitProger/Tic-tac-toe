@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 00px;
+    width: 300px;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
